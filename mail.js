@@ -1,12 +1,12 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCKQxtWtQsd5Lg4Xxcy0ulo0dh26DmEwx4",
-    authDomain: "contact-form-dae8c.firebaseapp.com",
-    databaseURL: "https://contact-form-dae8c-default-rtdb.firebaseio.com",
-    projectId: "contact-form-dae8c",
-    storageBucket: "contact-form-dae8c.appspot.com",
-    messagingSenderId: "435218922033",
-    appId: "1:435218922033:web:e5d9bdcba2b7fbb293f310"
-  };
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID"
+};
   firebase.initializeApp(firebaseConfig);
 
 
